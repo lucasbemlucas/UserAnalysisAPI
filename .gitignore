@@ -1,0 +1,58 @@
+
+---
+
+## 🛑 `.gitignore` completo para projetos .NET
+
+Crie esse arquivo como `.gitignore` na raiz do projeto:
+
+```gitignore
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Test Results
+TestResults/
+*.ncrunch*
+*.coverage
+*.coveragexml
+
+# Backup
+*.bak
+*.old
+*.orig
+
+# Packages
+*.nupkg
+packages/
+.nuget/
+
+# Others
+*.DS_Store
+Thumbs.db
+
+# Environment secrets
+.env
+appsettings.*.local.json

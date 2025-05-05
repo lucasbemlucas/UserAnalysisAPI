@@ -17,7 +17,7 @@ namespace UserAnalysisAPI.Controllers
             _userService = userService;
         }
 
-        [HttpGet("users")]
+        [HttpGet("")]
         public IActionResult GetAllUsers()
         {
             var stopwatch = Stopwatch.StartNew();

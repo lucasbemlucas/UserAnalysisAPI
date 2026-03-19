@@ -67,7 +67,7 @@ O endpoint `/api/evaluation` testa os principais endpoints da aplicação:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/lucasbemlucas/UserAnalysisAPI.git
+git clone https://github.com/lbalmendra/UserAnalysisAPI.git
 cd UserAnalysisAPI
 
 # Execute a aplicação
@@ -104,7 +104,7 @@ http://localhost:5000/swagger
 ## 🛠️ Autor
 
 **Lucas Bellucci Almendra**  
-🔗 GitHub: [@lucasbemlucas](https://github.com/lucasbemlucas)
+🔗 GitHub: [@lbalmendra](https://github.com/lbalmendra)
 
 ---
 
